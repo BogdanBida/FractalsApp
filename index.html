@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FractalsApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="block">
+        <nav class="block">
+            <button value="1" class="select-btn">Sirpinskis triangle</button>
+            <button value="2" class="select-btn">Newtons Pools</button>
+            <button value="3" class="select-btn">Plasma</button> 
+        </nav>
+        <h1 class="header-text">Fractals App</h1>
+        <span class="about">Created by Bogdan Bida</span>
+    </header>
+    <section id="main-section">
+        <div class="controll">
+            <button class="start-btn" id="start-btn-id">GENERATE</button>
+            <div class="col">
+                <label for="">Deep: <span id="deep"></span></label>
+                <input id="select-deep" type="range" min="0" max="9" step="1">
+            </div>
+            <div class="col">
+                <label for="">Fullscreen</label>
+                <input id="fs-checkbox" type="checkbox" value="false">
+            </div>
+        </div>
+        <canvas id="canvas">Sorry, your browser does not support HTML5 :(</canvas>
+    </section>
+
+    <script src="main.js">
+    </script>
+</body>
+
+</html>
