@@ -1,8 +1,7 @@
 var canvas = document.getElementById('canvas')
 var ctx = canvas.getContext('2d');
 
-var colormap = ['#FCB860', '#5AFFE7', '#726EFF', '#08C6AB'];
-colormap = ['#726eff', '#08c6ab', '#37465b', '#212b38'];
+var colormap = ['#726eff', '#08c6ab', '#37465b', '#212b38'];
 
 var canvW, canvH;
 
